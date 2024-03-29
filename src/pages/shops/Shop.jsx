@@ -105,6 +105,7 @@ const Shop = () => {
                         <p className="product-disc">Lorem ipsum dolor sit amet.</p>
                         <h3 className="price">$000</h3>
                     </div>
+                    
                 </div>
             </div>
         </div>
