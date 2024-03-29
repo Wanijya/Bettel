@@ -97,9 +97,7 @@ const Shop = () => {
                     </div>
                 </div>
                 <div className="shop-card">
-                    <div className="shop-card-img">
-                        {/* <img src="https://images.unsplash.com/photo-1519002214122-208337399999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="shop-img" /> */}
-                    </div>
+                    <div className="shop-card-img"></div>
                     <div className="shop-card-text">
                         <h3 className="product-name">Product Name</h3>
                         <p className="product-disc">Lorem ipsum dolor sit amet.</p>

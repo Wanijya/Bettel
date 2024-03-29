@@ -15,7 +15,7 @@ const Nav = () => {
 
   return (
     <nav className="nav">
-      <a href="/"><img src="/public/images/logo.png" width={50} height={50} alt="" /></a>
+      <a href="/"><img src="/logo.png" width={50} height={50} alt="" /></a>
       <ul className="links">
         <li>
           <a href="/about">About</a>
