@@ -1,0 +1,127 @@
+.community {
+  width: 100%;
+  min-height: 80vh;
+  padding: 1rem 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #18161e;
+  padding: 3vw 2vw;
+  text-align: center;
+}
+
+.community h3 {
+  font-size: 3.2rem;
+  background: linear-gradient(to bottom, #fff, #000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.community p {
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  padding-bottom: 4rem;
+}
+
+.communityContainer {
+  width: 100%;
+  padding: 2rem 0;
+  /* padding-right: 18rem; */
+}
+
+.communityCard {
+  display: block;
+  /* background-color: #0d0d0d; */
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    #131a23,
+    #131a23,
+    rgba(0, 0, 0, 1)
+  );
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cardTop {
+  display: flex;
+  /* justify-content: space-between; */
+  /* padding-bottom: 1rem; */
+  text-align: center;
+  gap: 2rem;
+}
+
+.communityImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.communityCard p {
+  color: gray;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.communityImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.communityContent h5 {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+  /* padding-bottom: 1rem; */
+  color: #9747ff;
+}
+
+.community .hiring {
+  color: #9747ff;
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.communityCard .button {
+  border-radius: 50%;
+  font-size: 1.2rem;
+  border: 1px solid #9747ff;
+  padding: 0.5rem 0.8rem;
+  color: #9747ff;
+  margin: 1rem;
+}
+
+.communityCard .button:hover {
+  /* background: #9747ff; */
+  background: linear-gradient(to left, #9747ff, #330076);
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .community {
+    margin-bottom: 1rem;
+  }
+  .community h3 {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+  }
+  .community p {
+    padding-left: 1rem;
+  }
+  .communityContainer {
+    padding: 0;
+    /* padding-left: 1rem; */
+    margin: 0.4rem;
+  }
+  .communityCard {
+    width: 100%;
+    border-radius: 20px;
+  }
+}
